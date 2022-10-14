@@ -1,0 +1,16 @@
+<div id="block1">
+  <h1>Employee Information</h1>
+</div>
+<div id="block2">
+Enter First Name <input type="text" [(ngModel)]="fname">
+  <br>
+ Enter Last Name <input type="text" [(ngModel)]="lname">
+  <br>
+Enter Date of Birth <input type="date" [(ngModel)]="dob">
+  <br>
+<button (click)="clicked()"  >Enter</button>
+  <br>
+<p>First Name : {{firstName}}</p>
+<p>Last Name : {{lastName}}</p>
+<p>Date of Birth : {{dateOfBirth}}</p>
+</div>
